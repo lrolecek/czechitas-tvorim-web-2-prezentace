@@ -113,6 +113,8 @@ section.has-dark-background {
 
     iframe {
         border: 1px solid #bbbbbb;
+
+        .c-slide-video & { border: 0 none; }
     }
 
     .speaker-notes { font-family: $headingFont; }
