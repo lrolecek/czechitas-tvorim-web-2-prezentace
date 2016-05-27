@@ -6,8 +6,10 @@
 		<title>reveal.js - Slide Notes</title>
 
 		<style>
+			@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,700,400italic,700italic&subset=latin,latin-ext');
+
 			body {
-				font-family: Helvetica;
+				font-family: 'Roboto Condensed', Helvetica, sans-serif;
 			}
 
 			#current-slide,
@@ -38,7 +40,7 @@
 
 			#current-slide {
 				position: absolute;
-				width: 65%;
+				width: 50%;
 				height: 100%;
 				top: 0;
 				left: 0;
@@ -47,18 +49,18 @@
 
 			#upcoming-slide {
 				position: absolute;
-				width: 35%;
-				height: 40%;
+				width: 50%;
+				height: 30%;
 				right: 0;
 				top: 0;
 			}
 
 			#speaker-controls {
 				position: absolute;
-				top: 40%;
+				top: 30%;
 				right: 0;
-				width: 35%;
-				height: 60%;
+				width: 50%;
+				height: 70%;
 				overflow: auto;
 
 				font-size: 18px;
@@ -117,12 +119,13 @@
 
 				.speaker-controls-notes {
 					padding: 10px 16px;
+					background-color: #f3f3f3;
 				}
 
 				.speaker-controls-notes .value {
 					margin-top: 5px;
-					line-height: 1.4;
-					font-size: 1.2em;
+					line-height: 1.15;
+					font-size: 2em;
 				}
 
 			.clear {
