@@ -29,7 +29,8 @@ Pro editaci je obvykle dobré s zapnout (v index.html), resp. zakomentovat pro p
 * píšeme v primárně v Markdownu, ale tak jako v Markdownu jde použít i HTML
 * jsou ve `slides` jako jednotlivé soubory (viz demo.md)
 * aby se objevily v prezentaci, je potřeba je nalinkovat v `index.html`
-* hlavní (horizontální) slajdy děláme obvykle jako samostatný soubor (ale lze je dělat i v rámci jednoho souboru pomocí odělovače `\n===\n`) a vertikální jsou pomocí oddělovače `\n---\n` v tom samém (pokud je třeba udělat `<hr>`, tak pomocí více než tří `-`)
+* hlavní (horizontální) slajdy děláme obvykle jako samostatný soubor (ale lze je dělat i v rámci jednoho souboru pomocí odělovače `\n===\n`)
+* vertikální jsou pomocí oddělovače `\n---\n` v tom samém (pokud je třeba udělat `<hr>`, tak pomocí více než tří `-`)
 
 ### Poznámky pro přednášejícího
 
