@@ -1,3 +1,9 @@
+<!-- .slide: data-background="#b82c7f" -->
+
+# Demo prvků
+
+===
+
 # Nadpis 1
 
 ## Nadpis 2
