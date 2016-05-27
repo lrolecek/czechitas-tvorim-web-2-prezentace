@@ -28,17 +28,17 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="slides/demo.md"             data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
+				<section data-markdown="slides/demo.md"             data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
 
-				<section data-markdown="slides/blank.md"            data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
-				<section data-markdown="slides/blank.md"            data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
+				<section data-markdown="slides/blank.md"            data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
+				<section data-markdown="slides/blank.md"            data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
 
-				<section data-markdown="slides/uvod-czechitas.md"   data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
+				<section data-markdown="slides/uvod-czechitas.md"   data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
 
-				<section data-markdown="slides/obalka.md"           data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
-				<section data-markdown="slides/pravidla.md"         data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
-				<section data-markdown="slides/prubeh.md"           data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
-				<section data-markdown="slides/klavesnice.md"       data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n-&#45;&#45;\n$"></section>
+				<section data-markdown="slides/obalka.md"           data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
+				<section data-markdown="slides/pravidla.md"         data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
+				<section data-markdown="slides/prubeh.md"           data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
+				<section data-markdown="slides/klavesnice.md"       data-separator-notes="^\n>>>$" data-separator="^\n===\n$" data-separator-vertical="^\n---;\n$"></section>
 			</div>
 		</div>
 
@@ -59,6 +59,7 @@
 				minScale: 0.1,
 				maxScale: 8,
 
+				// other settings
 				slideNumber: true,
 				mouseWheel: true,
 				backgroundTransition: 'none',
@@ -68,7 +69,7 @@
 				// dev settings
 				fragments: false,   // vypnout postupné zobrazování prvků s třídou fragment
 				transition: 'none', // vypnout efekty na přechodu mezi slajdy
-                showNotes: true,    // zapnout viditelné poznámky
+				showNotes: true,    // zapnout viditelné poznámky
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
@@ -84,12 +85,11 @@
 				]
 			});
 
+			// Vypnenout a zapnout vlastnosti pro urcite slajdy
 			Reveal.addEventListener('slidechanged', function(event){
 				if (event.currentSlide.attributes.getNamedItem('data-state')){
 					var currentSlideState = event.currentSlide.attributes.getNamedItem('data-state').nodeValue;
 				}
-
-				console.info(currentSlideState);
 
 				if (currentSlideState == 'c-slide-blank' || currentSlideState == 'c-slide-video'){
 					Reveal.configure({
