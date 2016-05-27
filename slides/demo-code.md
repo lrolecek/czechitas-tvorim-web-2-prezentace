@@ -53,3 +53,7 @@
 
 <pre class="c-text-xs"><code class="sample" sample="slides/sample.html#foo"></code></pre>
 <pre class="c-text-xs"><code class="sample" sample="slides/sample.css#foo"></code></pre>
+
+>>>
+* načítá kód z vnějších souborů, soubor může být delší a tímto z něj ukázat jen snippet(y)
+* zároveň je nutno obalit komentáři alespoň jeden snippet (nejde načíst celý soubor)

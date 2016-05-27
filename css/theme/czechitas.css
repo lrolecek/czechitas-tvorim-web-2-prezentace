@@ -396,6 +396,7 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
     font-size: 0;
 }
 */
+.language-css:before,
 .lang-css:before {
   display: block;
   position: absolute;
@@ -408,6 +409,7 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
   letter-spacing: 0;
   content: "CSS"; }
 
+.language-html:before,
 .lang-html:before {
   display: block;
   position: absolute;
