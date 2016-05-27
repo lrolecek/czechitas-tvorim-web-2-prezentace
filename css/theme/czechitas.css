@@ -461,6 +461,14 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
   background-color: #0f0f0f;
   border: 1px solid #333; }
 
+.c-slide-video .slide-background,
+.c-slide-task .slide-background {
+  background-color: #000; }
+
+body.print-pdf .c-slide-video .slide-background, body.print-pdf
+.c-slide-task .slide-background {
+  background-color: #eee; }
+
 .reveal .c-postit-green {
   box-sizing: border-box;
   padding-top: 1em;

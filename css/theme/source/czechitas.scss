@@ -233,6 +233,17 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
     }
 }
 
+.c-slide-video,
+.c-slide-task {
+    .slide-background { background-color: #000; }
+
+    body.print-pdf & {
+        .slide-background { background-color: #eee; }
+    }
+
+}
+
+
 .reveal {
     @mixin c-postit() {
         box-sizing: border-box;
