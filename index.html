@@ -72,6 +72,33 @@
 				transition: 'none', // vypnout efekty na přechodu mezi slajdy
 				showNotes: true,    // zapnout viditelné poznámky
 
+
+				menu: {
+					side: 'left',
+					numbers: false,
+					titleSelector: 'h1, h2, h3, h4, h5, h6',
+
+					hideMissingTitles: false,
+
+					markers: true,
+
+					custom: false,
+
+					// Specifies the themes that will be available in the themes
+					// menu panel. Set to 'false' to hide themes panel.
+					themes: false,
+
+					// Specifies if the transitions menu panel will be shown.
+					transitions: true,
+
+					// Adds a menu button to the slides to open the menu panel.
+					// Set to 'false' to hide the button.
+					openButton: true,
+
+					openSlideNumber: false,
+
+					keyboard: true
+				},
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
@@ -82,7 +109,8 @@
 						src: 'plugin/highlight/highlight.js', async: true, callback: function(){
 						hljs.initHighlightingOnLoad();
 					}
-					}
+					},
+					{ src: 'plugin/menu/menu.js' }
 				]
 			});
 
