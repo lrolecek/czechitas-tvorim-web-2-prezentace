@@ -6,7 +6,7 @@
 
 # Externí načítání kódu
 
-<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#html"></code></pre>
+<pre class="c-text-xs"><code class="sample" sample="slides/demo-sample.html#html"></code></pre>
 
 >>>
 * načítá kód z vnějších souborů, soubor může být delší a tímto z něj ukázat jen snippet(y)
