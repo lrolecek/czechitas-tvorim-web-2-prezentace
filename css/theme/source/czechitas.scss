@@ -77,6 +77,7 @@ section.has-dark-background {
         box-shadow: none;
         border-top: 1px solid #bbb;
         border-bottom: 1px solid #bbb;
+        padding-top: 10px;
     }
 
     pre + pre{
@@ -85,7 +86,7 @@ section.has-dark-background {
 
     pre code {
         line-height: 1.15;
-        padding: 0 0 10px;
+        padding: 0 0 12px;
     }
 
     kbd {
@@ -199,6 +200,11 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
 .lang-html:before {
     @include c-mark-code();
     content: "HTML";
+}
+
+.lang-js:before {
+    @include c-mark-code();
+    content: "js";
 }
 
 /* věci extra, které standardně neučíme */

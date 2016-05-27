@@ -310,12 +310,13 @@ body {
     white-space: pre-wrap;
     box-shadow: none;
     border-top: 1px solid #bbb;
-    border-bottom: 1px solid #bbb; }
+    border-bottom: 1px solid #bbb;
+    padding-top: 10px; }
   .reveal pre + pre {
     border-top: none; }
   .reveal pre code {
     line-height: 1.15;
-    padding: 0 0 10px; }
+    padding: 0 0 12px; }
   .reveal kbd {
     padding: 2px 5px !important;
     min-width: 1.5em;
@@ -407,7 +408,7 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
   position: absolute;
   top: 0.9em;
   left: -2em;
-  font-size: 40%;
+  font-size: 20px;
   transform: rotate(-90deg);
   color: #bbb;
   text-align: right;
@@ -419,12 +420,24 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
   position: absolute;
   top: 0.9em;
   left: -2em;
-  font-size: 40%;
+  font-size: 20px;
   transform: rotate(-90deg);
   color: #bbb;
   text-align: right;
   letter-spacing: 0;
   content: "HTML"; }
+
+.lang-js:before {
+  display: block;
+  position: absolute;
+  top: 0.9em;
+  left: -2em;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  color: #bbb;
+  text-align: right;
+  letter-spacing: 0;
+  content: "js"; }
 
 /* věci extra, které standardně neučíme */
 .c-extra {
