@@ -1,0 +1,9 @@
+/*sample(A)*/
+p {
+	color: red;
+}
+/*end-sample*/
+
+/*sample(B)*/
+p.supervisible { color: yellow; }
+/*end-sample*/
