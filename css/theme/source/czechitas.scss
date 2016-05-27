@@ -75,6 +75,12 @@ section.has-dark-background {
         tab-size: 4; /* Chrome 21+, Safari 6.1+, Opera 15+ */
         white-space: pre-wrap;
         box-shadow: none;
+        border-top: 1px solid #bbb;
+        border-bottom: 1px solid #bbb;
+    }
+
+    pre + pre{
+        border-top:none;
     }
 
     pre code {
@@ -179,7 +185,7 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
     left: -2em;
     font-size: 40%;
     transform: rotate(-90deg);
-    color: #dbdbdb;
+    color: #bbb;
     text-align: right;
     letter-spacing: 0;
 

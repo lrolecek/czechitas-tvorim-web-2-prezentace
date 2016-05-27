@@ -308,7 +308,11 @@ body {
     tab-size: 4;
     /* Chrome 21+, Safari 6.1+, Opera 15+ */
     white-space: pre-wrap;
-    box-shadow: none; }
+    box-shadow: none;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb; }
+  .reveal pre + pre {
+    border-top: none; }
   .reveal pre code {
     line-height: 1.15;
     padding: 0 0 10px; }
@@ -398,7 +402,6 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
     font-size: 0;
 }
 */
-.language-css:before,
 .lang-css:before {
   display: block;
   position: absolute;
@@ -406,12 +409,11 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
   left: -2em;
   font-size: 40%;
   transform: rotate(-90deg);
-  color: #dbdbdb;
+  color: #bbb;
   text-align: right;
   letter-spacing: 0;
   content: "CSS"; }
 
-.language-html:before,
 .lang-html:before {
   display: block;
   position: absolute;
@@ -419,7 +421,7 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
   left: -2em;
   font-size: 40%;
   transform: rotate(-90deg);
-  color: #dbdbdb;
+  color: #bbb;
   text-align: right;
   letter-spacing: 0;
   content: "HTML"; }
