@@ -12,17 +12,19 @@
 > grunt serve
 ```
 
-Spustí na localhost:8000 server, kde to běží. Je tam hlídání změn, takže jak obsah slajdů, tak index.html a soubory s SCSS se kompilují obnovuje se samo v prohlížeči.
+Spustí na localhost:8000 server, kde to běží. Je tam hlídání změn, takže jak obsah slajdů, tak index.html a soubory s SCSS se kompilují a obnovuje se to samo v prohlížeči.
 
 ## Editování
 
 ### Nastavení
 
-Pro editaci je obvykle dobré s zapnout (v index.html), resp. zakomentovat pro prezentování
+Pro editaci je obvykle dobré si zapnout (v index.html)
 
 * fragments: false,   // vypnout postupné zobrazování prvků s třídou fragment
 * transition: 'none', // vypnout efekty na přechodu mezi slajdy
 * showNotes: true,    // zapnout viditelné poznámky
+
+respektive zakomentovat pro prezentování
 
 ### Slajdy
 
@@ -30,7 +32,7 @@ Pro editaci je obvykle dobré s zapnout (v index.html), resp. zakomentovat pro p
 * jsou ve `slides` jako jednotlivé soubory (viz demo.md)
 * aby se objevily v prezentaci, je potřeba je nalinkovat v `index.html`
 * hlavní (horizontální) slajdy děláme obvykle jako samostatný soubor (ale lze je dělat i v rámci jednoho souboru pomocí odělovače `\n===\n`)
-* vertikální jsou pomocí oddělovače `\n---\n` v tom samém (pokud je třeba udělat `<hr>`, tak pomocí více než tří `-`)
+* vertikální slajdy jsou pomocí oddělovače `\n---\n` v tom samém (pokud je třeba udělat `<hr>`, tak pomocí více než tří `-`)
 
 ### Poznámky pro přednášejícího
 
