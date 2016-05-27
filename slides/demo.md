@@ -1,5 +1,3 @@
-<!-- .slide: data-background="img/box-model.svg" -->
-
 # Nadpis 1
 
 ## Nadpis 2
