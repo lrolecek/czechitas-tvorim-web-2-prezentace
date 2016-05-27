@@ -31,23 +31,33 @@
 	<![endif]-->
 
 	<style>
-		body{padding-top:20px;}
-		*{font-size: 140%;}
+/*// sample(css)*/
+body { padding-top: 40px; background-color: lightgray; }
+/*// end-sample*/
+* { font-size: 135%; }
 	</style>
+
 </head>
 
 <body>
 <div class="container">
 
-<!--// sample(foo)-->
+<!--// sample(html)-->
 <div class="row">
 	<div class="col-xs-6 col-md-4">sloupec 1</div>
 	<div class="col-xs-6 col-md-4">sloupec 2</div>
-	<div class="col-xs-6 col-md-4">sloupec 3</div>
 </div>
 <!--// end-sample -->
 
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+// sample(script)
+document
+	.getElementsByClassName('col-xs-6')[1]
+	.setAttribute('class','col-xs-9 col-md-6');
+// end-sample
+	</script>
 </body>
 </html>

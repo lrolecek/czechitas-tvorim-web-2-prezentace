@@ -51,8 +51,7 @@
 
 # Externí načítání kódu
 
-<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#foo"></code></pre>
-<pre class="c-text-xs"><code class="sample" sample="slides/sample.css#foo"></code></pre>
+<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#html"></code></pre>
 
 >>>
 * načítá kód z vnějších souborů, soubor může být delší a tímto z něj ukázat jen snippet(y)
@@ -62,10 +61,13 @@
 
 ## s ukázkou výsledku… v iframe
 
-<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#foo"></code></pre>
+<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#html"></code></pre>
+<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#css" sample-type="css"></code></pre>
+<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#script" sample-type="js"></code></pre>
 
 <div class="stretch">
-<iframe class="" width="1500" height="100%" src="slides/sample.html">
+<iframe width="100%" height="100%" src="slides/sample.html"></iframe>
 </div>
 
-
+>>>
+* pokud je potřeba automatický reload tak zatím funkční jen pro html soubory (tedy pouze inline javascript a css)
