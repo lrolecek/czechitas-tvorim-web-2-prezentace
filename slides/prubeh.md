@@ -1,24 +1,25 @@
 <!-- .slide: data-background="#b82c7f" -->
-# Jak to bude probíhat
+# Jak to bude probíhat?
 
 ---
 
-# 1. vyzkoušíte si nářadí
-# 2. samostatný projekt <!-- .element: class="fragment" -->
+# A. vyzkoušíte si nářadí
+# B. samostatný projekt <!-- .element: class="fragment" -->
 
 >>>
 * Čím svižněji půjde zkoušení, tím víc času na projekt
 
 ---
 
-# Ukážu nástroje
-
->>>
-* Dávejte pozor, nebudu to víckrát opakovat.
+# Jak to bude probíhat?
 
 ---
 
-# Zkusíte si
+# 1. Ukážu
+
+---
+
+# 2. Zkusíte si
 
 ## času bude kolik je potřeba
 
@@ -29,7 +30,7 @@ Jak to uděláme? Zepředu opravdu každému do monitoru nevidím. Proto mi daj�
 
 ---
 
-# Skupina má hotovo?
+# 3. Skupina má hotovo?
 
 ## kouč dá signál <!-- .element: class="fragment" -->
 
@@ -42,6 +43,10 @@ hotovo,<br>dál <!-- .element: class="fragment c-postit-green"  -->
 ## nalep si na notebook viditelně <!-- .element: class="fragment" -->
 
 kouč<br>ke mě <!-- .element: class="fragment c-postit-red" -->
+
+---
+
+# A znovu ukážu…
 
 ---
 
