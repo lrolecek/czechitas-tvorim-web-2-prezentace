@@ -83,25 +83,23 @@ Odstavec textu textu textu textu textu textu textu textu textu textu textu textu
 
 ```html
 <p>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
+	<a href="#">Code 1</a>
+	<a href="#">Code 2</a>
+	<a href="#">Code 3</a>
+	<a href="#">Code 4</a>
+	<a href="#">Code 5</a>
+	<a href="#">Code 6</a>
+	<a href="#">Code 7</a>
+	<a href="#">Code 8</a>
+	<a href="#">Code 9</a>
+	<a href="#">Code 10</a>
+	<a href="#">Code 11</a>
+	<a href="#">Code 12</a>
+	<a href="#">Code 13</a>
+	<a href="#">Code 14</a>
+	<a href="#">Code 15</a>
+	<a href="#">Code 16</a>
+	<a href="#">Code 17</a>
 </p>
 ```
 <!-- .element: class="c-text-xs stretch" -->
@@ -112,15 +110,17 @@ Odstavec textu textu textu textu textu textu textu textu textu textu textu textu
 
 ```html
 <p>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
+	<a href="#">Code 1</a>
+	<a href="#">Code 2</a>
+	<a href="#">Code 3</a>
+	<a href="#">Code 4</a>
+	<a href="#">Code 5</a>
+	<a href="#">Code 6</a>
+	<a href="#">Code 7</a>
+	<a href="#">Code 8</a>
+	<a href="#">Code 9</a>
+	<a href="#">Code 10</a>
+	<a href="#">Code 11</a>
 </p>
 ```
 <!-- .element: class="c-text-sm stretch" -->
@@ -131,11 +131,11 @@ Odstavec textu textu textu textu textu textu textu textu textu textu textu textu
 
 ```html
 <p>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
+	<a href="#">Code 1</a>
+	<a href="#">Code 2</a>
+	<a href="#">Code 3</a>
+	<a href="#">Code 4</a>
+	<a href="#">Code 5</a>
 </p>
 ```
 <!-- .element: class="stretch"  -->
@@ -146,10 +146,10 @@ Odstavec textu textu textu textu textu textu textu textu textu textu textu textu
 
 ```html
 <p>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
-	<a href="#">Code</a>
+	<a href="#">Code 1</a>
+	<a href="#">Code 2</a>
+	<a href="#">Code 3</a>
+	<a href="#">Code 4</a>
 </p>
 ```
 <!-- .element: class="c-text-md stretch" -->
@@ -161,7 +161,7 @@ Odstavec textu textu textu textu textu textu textu textu textu textu textu textu
 ```html
 <p>
 	<a href="#">
-		Big
+		Code 1
 	</a>
 </p>
 ```
