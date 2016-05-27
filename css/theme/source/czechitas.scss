@@ -185,13 +185,11 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
 
 }
 
-.language-css:before,
 .lang-css:before {
     @include c-mark-code();
     content: "CSS";
 }
 
-.language-html:before,
 .lang-html:before {
     @include c-mark-code();
     content: "HTML";
