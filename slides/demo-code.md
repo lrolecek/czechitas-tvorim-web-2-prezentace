@@ -4,7 +4,7 @@
 
 ===
 
-### CSS
+# CSS
 
 ```css
 /* Extra small devices (phones, less than 768px) */
@@ -23,7 +23,7 @@
 
 ---
 
-### HTML
+# HTML
 
 ```html
 <!-- Stack the columns on mobile by making one full-width and the other half-width -->
@@ -47,7 +47,7 @@
 ```
 <!-- .element: class="c-text-xs stretch" -->
 
----
+===
 
 # Externí načítání kódu
 
@@ -57,3 +57,15 @@
 >>>
 * načítá kód z vnějších souborů, soubor může být delší a tímto z něj ukázat jen snippet(y)
 * zároveň je nutno obalit komentáři alespoň jeden snippet (nejde načíst celý soubor)
+
+---
+
+## s ukázkou výsledku… v iframe
+
+<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#foo"></code></pre>
+
+<div class="stretch">
+<iframe class="" width="1500" height="100%" src="slides/sample.html">
+</div>
+
+
