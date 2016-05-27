@@ -113,9 +113,6 @@ module.exports = function(grunt) {
 			css: {
 				files: ['css/*.scss'],
 				tasks: 'css-core'
-			},
-			slides: {
-				files: ['slides/**/*.md']
 			}
 		},
 
