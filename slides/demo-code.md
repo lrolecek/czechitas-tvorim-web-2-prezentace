@@ -46,3 +46,10 @@
 </div>
 ```
 <!-- .element: class="c-text-xs stretch" -->
+
+---
+
+# Externí načítání kódu
+
+<pre class="c-text-xs"><code class="sample" sample="slides/sample.html#foo"></code></pre>
+<pre class="c-text-xs"><code class="sample" sample="slides/sample.css#foo"></code></pre>

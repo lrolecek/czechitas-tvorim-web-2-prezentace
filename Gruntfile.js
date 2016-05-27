@@ -129,8 +129,8 @@ module.exports = function(grunt) {
 			html: {
 				files: [ '*.html']
 			},
-			markdown: {
-				files: [ '**/*.md' ]
+			slides: {
+				files: [ 'slides/**/*' ]
 			},
 			options: {
 				livereload: true
