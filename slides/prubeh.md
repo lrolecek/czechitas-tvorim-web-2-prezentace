@@ -46,7 +46,7 @@ kouč<br>ke mě <!-- .element: class="fragment c-postit-red" -->
 
 ---
 
-<!-- .slide: data-background="#000" -->
+<!-- .slide: data-state="c-slide-task" -->
 
 # Úkol
 

@@ -8,7 +8,7 @@
 
 ---
 
-<!-- .slide: data-background="#000" data-state="c-slide-video" -->
+<!-- .slide: data-state="c-slide-video" -->
 
 ###### Konica Minolta
 
@@ -16,7 +16,7 @@
 
 ---
 
-<!-- .slide: data-background="#000" data-state="c-slide-video" -->
+<!-- .slide: data-state="c-slide-video" -->
 
 ###### Impact Hub
 
