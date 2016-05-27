@@ -38,7 +38,8 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-sass": "^1.x",
     "grunt-zip": "~0.17.1",
-    "node-sass": "^3.x"
+    "node-sass": "^3.x",
+    "grunt-browser-sync": "^2.x"
   },
   "license": "MIT"
 }

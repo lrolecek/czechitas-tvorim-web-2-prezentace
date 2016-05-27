@@ -89,18 +89,6 @@ module.exports = function(grunt) {
 			files: [ 'Gruntfile.js', 'js/reveal.js' ]
 		},
 
-		connect: {
-			server: {
-				options: {
-					port: port,
-					base: base,
-					livereload: true,
-					hostname: 'localhost',
-					open: false
-				}
-			}
-		},
-
 		zip: {
 			'reveal-js-presentation.zip': [
 				'index.html',
@@ -126,11 +114,34 @@ module.exports = function(grunt) {
 				files: ['css/*.scss'],
 				tasks: 'css-core'
 			},
-			livereload: {
-				files: ['*.html', '*.css', 'slides/**/*']
-			},
-			options: {
-				livereload: true
+			slides: {
+				files: ['slides/**/*.md']
+			}
+		},
+
+		browserSync: {
+			dev: {
+				bsFiles: {
+					src: [
+						'slides/**/*',
+						'*.html',
+						'css/**/*',
+						'js/**/*',
+						'img/**/*'
+					]
+				},
+				options: {
+					server: {
+						baseDir: './',
+						watchTask: true
+					},
+					injectChanges: false,
+					watchTask: true,
+					port: port,
+					ghostMode: false,
+					notify: false,
+					open: false
+				}
 			}
 		}
 
@@ -143,9 +154,10 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-sass' );
-	grunt.loadNpmTasks( 'grunt-contrib-connect' );
 	grunt.loadNpmTasks( 'grunt-autoprefixer' );
 	grunt.loadNpmTasks( 'grunt-zip' );
+    grunt.loadNpmTasks( 'grunt-browser-sync' );
+
 
 	// Default task
 	grunt.registerTask( 'default', [ 'css', 'js' ] );
@@ -166,7 +178,7 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'package', [ 'default', 'zip' ] );
 
 	// Serve presentation locally
-	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
+	grunt.registerTask( 'serve', [  'browserSync', 'watch' ] );
 
 	// Run tests
 	grunt.registerTask( 'test', [ 'jshint', 'qunit' ] );
