@@ -41,10 +41,122 @@ Odstavec textu textu textu textu textu textu textu textu textu textu textu textu
 
 ===
 
-# Kód
+### Kód: výchozí
 
 ```html
-<a href="#">Code</a>
-<span class="fragment" data-fragment-index="40">&lt;p&gt;</span>A Kryštůfek Robin a Králíček a všichni Králíčkovi příbuzní a známí se svalili… A navrch na tu hromadu se svalil vysvobozený Pú!<span class="fragment" data-fragment-index="40">&lt;/p&gt;</span>
+<p>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+</p>
 ```
-<!-- .element: class="c-text-large stretch" data-noescape data-trim  -->
+
+>>>
+* výchozí vzhled kódu
+
+---
+
+### Kód: roztažený do&nbsp;konce
+
+```html
+<p>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+</p>
+```
+<!-- .element: class="stretch"  -->
+
+---
+
+### Kód: velikosti: c-text-xs
+
+```html
+<p>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+</p>
+```
+<!-- .element: class="c-text-xs stretch" -->
+
+---
+
+### Kód: velikosti: c-text-sm
+
+```html
+<p>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+</p>
+```
+<!-- .element: class="c-text-sm stretch" -->
+
+---
+
+### Kód: velikosti: výchozí
+
+```html
+<p>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+</p>
+```
+<!-- .element: class="stretch"  -->
+
+---
+
+### Kód: velikosti: c-text-md
+
+```html
+<p>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+	<a href="#">Code</a>
+</p>
+```
+<!-- .element: class="c-text-md stretch" -->
+
+---
+
+### Kód: velikosti: c-text-lg
+
+```html
+<p>
+	<a href="#">
+		Big
+	</a>
+</p>
+```
+<!-- .element: class="c-text-lg stretch" -->

@@ -110,22 +110,30 @@ section.has-dark-background {
 * ---------
 */
 
-.c-text-left { text-align: left; }
+.reveal {
+    .c-text-left { text-align: left; }
 
-.c-text-right { text-align: right; }
+    .c-text-right { text-align: right; }
 
-.c-text-center { text-align: center; }
+    .c-text-center { text-align: center; }
 
-.c-text-small { font-size: 50%; }
+    .c-text-xs,
+    .c-text-xs code { font-size: 35px; }
 
-.c-text-medium,
-.c-text-medium code { font-size: 160%; }
+    .c-text-sm,
+    .c-text-sm code { font-size: 64px; }
 
-.c-text-large,
-.c-text-large code { font-size: 220%; }
+    pre code {
+        font-size: 100px;
+        letter-spacing: -0.03em;
+    }
 
-.c-text-largest,
-.c-text-largest code { font-size: 400%; }
+    .c-text-md,
+    .c-text-md code { font-size: 120px; }
+
+    .c-text-lg,
+    .c-text-lg code { font-size: 150px; }
+}
 
 .c-row {
     float: left;
@@ -167,8 +175,10 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
     left: -2em;
     font-size: 40%;
     transform: rotate(-90deg);
-    color: #c3c3c3;
+    color: #dbdbdb;
     text-align: right;
+    letter-spacing: 0;
+
 }
 
 .lang-css:before {
