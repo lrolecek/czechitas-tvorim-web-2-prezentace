@@ -11,10 +11,6 @@
 
 ---
 
-# Jak to bude probíhat?
-
----
-
 # 1. Ukážu
 
 ---
