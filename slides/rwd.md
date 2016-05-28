@@ -60,7 +60,7 @@ My budeme dnes pracovat pouze s jedním obrázkem pro všechny breakpointy.
 
 ---
 
-<!-- .slide: data-background="#000" -->
+<!-- .slide: data-state="c-slide-task" -->
 
 # Úkol 01
 
@@ -104,7 +104,7 @@ Nejprve v css uvedeme styly platné pro všechna zařízení, potom uvnitř medi
 
 ---
 
-<!-- .slide: data-background="#000" -->
+<!-- .slide: data-state="c-slide-task" -->
 
 # Úkol 02
 
