@@ -113,7 +113,12 @@ section.has-dark-background {
 
     iframe {
         border: 1px solid #bbbbbb;
+
+        .c-slide-video & { border: 0 none; }
     }
+
+    .speaker-notes { font-family: $headingFont; }
+
 }
 
 /*
@@ -143,7 +148,8 @@ section.has-dark-background {
     .c-text-md code { font-size: 120px; }
 
     .c-text-lg,
-    .c-text-lg code { font-size: 150px; }
+    .c-text-lg code { font-size: 145px; }
+
 }
 
 .c-row {
@@ -228,6 +234,17 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
         border: 1px solid #333;
     }
 }
+
+.c-slide-video,
+.c-slide-task {
+    .slide-background { background-color: #000; }
+
+    body.print-pdf & {
+        .slide-background { background-color: #eee; }
+    }
+
+}
+
 
 .reveal {
     @mixin c-postit() {

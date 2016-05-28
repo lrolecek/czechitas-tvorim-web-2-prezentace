@@ -19,7 +19,7 @@ ale nedělají nic za vás
 **zvládnete to samy**
 
 >>>
-* Kouči nepíšou za vás, nenechte je sahat na lávesnici
+* Kouči nepíšou za vás, nenechte je sahat na klávesnici
 * Neváhejte jim říct, jinak by tu byli zbytečně
 
 ---

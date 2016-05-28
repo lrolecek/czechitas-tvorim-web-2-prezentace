@@ -337,6 +337,10 @@ body {
     background-color: rgba(255, 255, 255, 0.75); }
   .reveal iframe {
     border: 1px solid #bbbbbb; }
+    .c-slide-video .reveal iframe {
+      border: 0 none; }
+  .reveal .speaker-notes {
+    font-family: "Roboto Condensed", sans-serif; }
 
 /*
 * Additions
@@ -369,7 +373,7 @@ body {
 
 .reveal .c-text-lg,
 .reveal .c-text-lg code {
-  font-size: 150px; }
+  font-size: 145px; }
 
 .c-row {
   float: left;
@@ -458,6 +462,14 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
 .c-slide-blank .stretch {
   background-color: #0f0f0f;
   border: 1px solid #333; }
+
+.c-slide-video .slide-background,
+.c-slide-task .slide-background {
+  background-color: #000; }
+
+body.print-pdf .c-slide-video .slide-background, body.print-pdf
+.c-slide-task .slide-background {
+  background-color: #eee; }
 
 .reveal .c-postit-green {
   box-sizing: border-box;
