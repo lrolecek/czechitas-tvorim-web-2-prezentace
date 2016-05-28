@@ -1,10 +1,6 @@
 <!-- .slide: data-state="c-slide-half" -->
 
-# Czechitas jsou nejlepší
-
----
-
-# A tohle chceme taky říct
+# Czechitas
 
 ---
 
