@@ -375,29 +375,21 @@ body {
 .reveal .c-text-lg code {
   font-size: 145px; }
 
-.c-row {
-  float: left;
-  width: 100%;
-  clear: both; }
-
-.c-col-half {
-  float: left;
-  width: 48% !important;
-  margin-right: 4% !important; }
-
-.c-col-half:last-of-type {
-  margin-right: 0 !important; }
-
-.c-col-third {
-  float: left;
-  width: 31% !important;
-  margin-right: 3.5% !important; }
-
-.c-col-third:last-of-type {
-  margin-right: 0 !important; }
-
-.c-col-third.c-col-two {
-  width: 65.5% !important; }
+.reveal .c-cols {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch; }
+  .reveal .c-cols > * {
+    margin-right: 1em;
+    width: 0;
+    flex-grow: 1;
+    flex-shrink: 1; }
+    .reveal .c-cols > *:last-child {
+      margin-right: 0; }
+  .reveal .c-cols > .c-grow {
+    flex-grow: 2; }
 
 /*
 code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
