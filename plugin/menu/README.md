@@ -24,6 +24,26 @@ Reveal.initialize({
 });
 ```
 
+### npm
+
+Download and install the package in your project:
+
+```npm install --save reveal.js-menu```
+
+Add the plugin to the dependencies in your presentation, as below. 
+
+```javascript
+Reveal.initialize({
+	// ...
+	
+	dependencies: [
+		// ... 
+	  
+		{ src: 'node_modules/reveal.js-menu/menu.js' }
+	]
+});
+```
+
 ### Manual
 
 Copy this repository into the plugins folder of your reveal.js presentation, ie ```plugins/menu```.
@@ -200,8 +220,8 @@ Reveal.initialize({
 
 ```title``` and ```icon``` are used for the toolbar buttons at the top of the menu. There are two approaches you can use to provide content for the panels...
 
-* Provide html in ```content``` and this will be added to the custom panel.
-* You can also provide a URL in ```src``` to load html from another file.
+* You can provide a URL in ```src``` to load html from another file.
+* Alternatively, you can provide html in ```content``` and this will be added to the custom panel.
 
 ###### Custom slide menu items
 
@@ -226,6 +246,17 @@ You are not limited to linking to presentation slides. You can provide any link 
 ```
 
 Using menu items enables keyboard navigation of your links as with the other panels. However, you don't have to use menu items for your links. You can simply provide standard links and unordered lists in your html. Notice you can provide your custom menu items mixed with other html if you wish.
+
+
+## Ready Event
+
+A 'menu-ready' event is fired when reveal.js-menu has loaded all non-async dependencies and is ready to start navigating.
+
+```javascript
+Reveal.addEventListener( 'menu-ready', function( event ) {
+	// your code
+} );
+```
 
  
 ## License
